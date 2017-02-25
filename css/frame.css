@@ -1,0 +1,65 @@
+body {
+  background-color: darkolivegreen;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  border: none;
+}
+
+h1, h2, h3, h4 {
+  display: inline;
+}
+
+header, nav, #capsule, footer {
+  padding: 0;
+  border: none;
+  min-width: 600px;
+  max-width: 60%
+  margin-top: 0%;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 0;
+}
+
+#capsule, nav, footer {
+  padding-top: 5px;
+  background: white;
+  display: inline-block;
+}
+
+
+header {
+  background: green;
+  background-image: linear-gradient(to bottom, rgb(110,139,61), rgb(202,255,112));
+}
+
+
+header h1 {
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  text-shadow: 5px 5px 3px #CCCCCC;
+  font-weight: bolder;
+  font-size: 20pt;
+  font-style: italic;
+}
+
+
+nav {
+  margin-top: -25px;
+  column-count: 4;
+  min-width: 60%;
+}
+
+
+#footer-disclaimer {
+  padding: 5px;
+  margin-left: 5%;
+  margin-right: 10%;
+  font-family: cambria, times new roman, serif;
+  font-weight: bolder;
+  font-size: 11pt;
+  font-style: italic;
+  border-image: url(../img/Warning_Stripe.svg) 10 repeat;
+}
+
+#contact-us {
+  text-align: center;
+}

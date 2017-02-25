@@ -1,0 +1,76 @@
+#capsule {
+  background: white;
+  font-family: calibri, arial, sans-serif;
+
+  /* special support for older browsers */
+  -webkit-column-count: 2; /* older WebKit browsers */
+  -webkit-column-gap: 30px;
+  -moz-column-count: 2; /* older versions of Firefox */
+  -moz-column-gap: 30px;
+
+  /* this should work on all browsers from after ~2010 */
+  column-count: 2;
+  column-gap: 30px;
+
+}
+
+main {
+
+}
+
+aside {
+  margin-left: 40%;
+}
+
+#products {
+  font-size: 12pt;
+  font-weight: bold;
+  -webkit-column-count: 3; /* Chrome, Safari, Opera */
+  -moz-column-count: 3; /* Firefox */
+  column-count: 3;
+}
+
+
+h3 {
+  color: gray;
+  font-size: 16pt;
+  font-weight: bold;
+  font-style: italic;
+  padding-top: 5px;
+  padding-bottom: 0px;
+}
+
+h4 {
+  font-family: calibri, arial, sans-serif;
+  color: gray;
+  font-size: 14pt;
+  font-weight: bold;
+  padding-top: 5px;
+}
+
+
+#please-call {
+  color: green;
+  font-size: 12pt;
+  font-style: italic;
+  padding-top: 10px;
+  clear: both;
+}
+
+#please-call.h4 {
+  font-weight: bold;
+  font-size: 14pt;
+}
+
+
+#shipping-restrictions {
+  font-family: cambria, times new roman, serif;
+  font-weight: bolder;
+  font-size: 12pt;
+}
+
+#hand-loading-disclaimer {
+  top-border: 1px black solid;
+  padding: 0px;
+  margins: 0px;
+}

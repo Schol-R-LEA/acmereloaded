@@ -1,0 +1,54 @@
+body {
+  background-color: darkolivegreen;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  border: none;
+}
+
+header, #capsule, footer {
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+@media screen and (min-width: 800px) {
+
+  header, #capsule, footer  {
+    width: 60%;
+    margin-left: 20%;
+    background-color: white;
+  }
+}
+
+header {
+  background-color: green;
+  background-image: linear-gradient(to bottom, rgb(110,139,61), rgb(202,255,112))
+}
+
+header.img {
+  left: 10%;
+  right: 10%;
+}
+
+header.h1 {
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  font-weight: bolder;
+  font-size: 16pt;
+  font-style: italic;
+}
+
+
+#footer-disclaimer {
+  width: 75%;
+  font-family: cambria, times new roman, serif;
+  font-weight: bolder;
+  font-size: 10pt;
+  font-style: italic;
+}
+
+.caution-tape {
+  background-image: url(img/Warning_Stripe.svg) x-repeat;
+}
+
+#contact-us {
+  text-align: center;
+}
