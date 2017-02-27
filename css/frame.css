@@ -1,8 +1,15 @@
+@font {
+  font-family: 'Kalam';
+  src: url('../font/Kalam-Bold.ttf')
+          format('truetype');
+  weight: bold;
+}
+
 body {
   background-color: rgb(105, 105, 50);
   margin: 0px 0px 0px 0px;
   padding: 0px 0px 0px 0px;
-  border: none;
+  frameborder: none;
 }
 
 h1, h2, h3, h4 {
@@ -37,9 +44,9 @@ header {
 
 
 header h1 {
-  font-family: Comic Sans MS, Comic Sans, cursive;
+  font-family: 'Kalam', cursive;
   text-shadow: 5px 5px 3px #CCCCCC;
-  font-weight: bolder;
+  font-weight: bold;
   font-size: 20pt;
   font-style: italic;
   display: inline-block;
