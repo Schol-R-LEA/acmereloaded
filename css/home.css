@@ -6,8 +6,7 @@
 main {
   position: relative;
   float: left;
-  min-width: 575px;
-  max-width: 60%;
+  width: 720px;
   margin-left: 10px;
   margin-right: 5px;
   display: inline-block;
@@ -22,26 +21,27 @@ aside {
 }
 
 #products {
-  color: gray;
   margin-top: 1em;
   margin-right: 1em;
 }
 
 
 #products h3 {
+  color: black;
   font-size: 18pt;
   font-weight: bold;
   font-style: italic;
   padding-top: 0px;
   padding-bottom: 0px;
+  text-decoration: underline;
   display: inline;
 }
 
 #product-lists {
-  -webkit-column-count: 3; /* Chrome, Safari, newer Opera */
-  -o-column-count: 3; /* Firefox */
-  -moz-column-count: 3; /* Firefox */
-  column-count: 3;
+  -webkit-column-width: 20em; /* Chrome, Safari, newer Opera */
+  -o-column-width: 20em; /* Firefox */
+  -moz-column-width: 20em; /* Firefox */
+  column-width: 20em;
   margin-top: 0px;
 }
 
@@ -49,14 +49,14 @@ aside {
   white-space: nowrap;
   display: inline-block;
   vertical-align: text-top;
-  padding-bottom: 1em;;
+  padding-bottom: 1em;
   margin-top: 0;
 }
 
 #product-lists h4 {
   font-family: calibri, arial, sans-serif;
-  color: gray;
-  font-size: 14pt;
+  color: rgb(70, 70, 70);
+  font-size: 16pt;
   font-weight: bold;
 }
 
@@ -67,7 +67,7 @@ aside {
 #product-lists li {
   font-family: cambria, times new roman, serif;
   font-size: 14pt;
-  color: gray;
+  color: rgb(100, 100, 100);
   list-style-type: none;
   padding-left: 0;
   padding-top: 0;
@@ -78,6 +78,7 @@ aside {
 #please-call {
   color: green;
   font-size: 12pt;
+  font-weight: bold;
   font-style: italic;
   display: inline-block;
 }
@@ -126,11 +127,11 @@ aside {
 #hours h4 {
   font-size: 13pt;
   font-weight: bold;
-  text-decoration: underline;
   display: inline;
 }
 
 #hours div {
+  border-top: 1px black solid;
   font-size: 11pt;
   display: inline-block;
   margins: 0px;
@@ -140,7 +141,7 @@ aside {
 
 #shows {
   font-family: calibri, arial, sans-serif;
-  color: gray;
+  color: black;
   font-size: 12pt;
   margin-top: 10px;
   margin-right: 5px;

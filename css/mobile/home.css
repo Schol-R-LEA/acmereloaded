@@ -1,53 +1,190 @@
 #capsule {
-  background: white;
   font-family: calibri, arial, sans-serif;
-
-  /* special support for older browsers */
-  -webkit-column-count: 2; /* older WebKit browsers */
-  -webkit-column-gap: 30px;
-  -moz-column-count: 2; /* older versions of Firefox */
-  -moz-column-gap: 30px;
-
-  /* this should work on all browsers from after ~2010 */
-  column-count: 2;
-  column-gap: 30px;
-
 }
 
 main {
-
+  margin-top: -1em;
+  padding-top: 0;
+  padding-left: 1em;
+  padding-right: 1em;
 }
+
 
 aside {
-  margin-left: 40%;
+  display: none;
 }
+
 
 #products {
-  font-size: 12pt;
+  margin-top: 1em;
+}
+
+#products h3 {
+  color: black;
+  font-size: 20pt;
   font-weight: bold;
-  -webkit-column-count: 3; /* Chrome, Safari, Opera */
-  -moz-column-count: 3; /* Firefox */
-  column-count: 3;
+  font-style: italic;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  text-decoration: underline;
+  display: inline;
+}
+
+#product-lists {
+  -webkit-column-width: 50em; /* Chrome, Safari, newer Opera */
+  -o-column-width: 50em; /* Firefox */
+  -moz-column-width: 50em; /* Firefox */
+  column-width: 50em;
+  -webkit-column-gap: 10em; /* Chrome, Safari, newer Opera */
+  -o-column-gap: 10em; /* Firefox */
+  -moz-column-gap: 10em; /* Firefox */
+  column-gap: 5em;
+  margin-top: -15px;
 }
 
 
-h3 {
-  color: gray;
+#product-lists section {
+  display: inline-block;
+  vertical-align: text-top;
+  padding-bottom: 1em;
+  margin-top: -15px;
+}
+
+#product-lists h4 {
+  font-family: calibri, arial, sans-serif;
   font-size: 16pt;
   font-weight: bold;
+  margin-bottom: -15px;
+}
+
+#product-lists ul {
+  display: inline;
+  margin-top: -15px;
+}
+
+#product-lists li {
+  font-family: cambria, times new roman, serif;
+  font-size: 14pt;
+  list-style-type: none;
+  padding-left: 0;
+  padding-top: 0;
+}
+
+
+#please-call {
+  color: green;
+  font-size: 12pt;
+  font-weight: bold;
   font-style: italic;
-  padding-top: 5px;
+  display: inline-block;
+}
+
+#please-call h4 {
+  font-weight: bold;
+  font-size: 14pt;
+  margin-bottom: 0px;
   padding-bottom: 0px;
 }
 
-h4 {
-  font-family: calibri, arial, sans-serif;
-  color: gray;
-  font-size: 14pt;
-  font-weight: bold;
-  padding-top: 5px;
+#please-call span {
+  display: inline-block;
+  font-weight: bolder;
+  font-style: normal;
 }
 
+
+#shipping-restrictions {
+  font-family: cambria, times new roman, serif;
+  font-weight: bolder;
+  font-size: 12pt;
+  display: inline-block;
+}
+
+#hand-loading-disclaimer {
+  font-family: cambria, times new roman, serif;
+  font-weight: bolder;
+  font-size: 12pt;
+  top-border: 1px black solid;
+  padding: 0px;
+  margins: 0px;
+  color: darkred;
+  display: inline-block;
+}
+
+#hand-loading-disclaimer h4, p {
+  display: inline;
+}
+
+#hours {
+
+  font-family: calibri, arial, sans-serif;
+  display: inline-block;
+}
+
+#hours h4 {
+  font-size: 13pt;
+  font-weight: bold;
+  display: inline;
+}
+
+#hours div {
+  border-top: 1px black solid;
+  font-size: 11pt;
+  display: inline-block;
+  margins: 0px;
+  padding: 0px;
+}
+
+
+#shows {
+  font-family: calibri, arial, sans-serif;
+  color: gray;
+  font-size: 12pt;
+  margin-top: 10px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  padding: 1px;
+  display: inline-block;
+}
+
+#shows h4 {
+  font-size: 12pt;
+  font-weight: bold;
+  text-decoration: underline;
+  padding: 0px;
+  margin: 0px;
+}
+
+#shows ul {
+  display: inline-block;
+  margin: 2px;
+  padding: 0px;
+  width:95%;
+  border: 1px gray solid;
+  list-style-type: none;
+}
+
+#shows li {
+  display: inline;
+  text-align: left;
+  margin-left: 0px;
+}
+
+#shows address {
+  text-align: left;
+  margin-top: 0px;
+  margin-bottom: 1em;
+}
+
+#product-logos img {
+  margin: 0px;
+  padding-left: 5px;
+  padding-top: 25px;
+  padding-bottom: 0px;
+  padding-right: 5px;
+  width: 240px;
+  border: none;
+}
 
 #please-call {
   color: green;

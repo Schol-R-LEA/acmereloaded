@@ -1,9 +1,9 @@
 @font {
   font-family: 'Kalam';
-  src: url('../font/Kalam-Bold.ttf')
+  src: url('http://fonts.googleapis.com/css?family=kalam')
           format('truetype');
-  weight: bold;
 }
+
 
 body {
   background-color: rgb(105, 105, 50);
@@ -19,10 +19,10 @@ h1, h2, h3, h4 {
 header, nav, #capsule, footer {
   padding: 0;
   border: none;
-  min-width: 60%;
-  margin-top: 0%;
-  margin-left: 20%;
-  margin-right: 20%;
+  width: 1000px;
+  margin-top: 0;
+  margin-left: calc((100% - 1000px) / 2);
+  margin-right: calc((100% - 1000px) / 2);
   margin-bottom: 0;
 }
 
@@ -35,9 +35,8 @@ header, nav, #capsule, footer {
 
 header {
   height: 185px;
-  width: 60%;
-  background-repeat:no-repeat;
-
+  padding-left: 3px;
+  background-repeat: no-repeat;
   background-image: linear-gradient(230deg, rgb(105, 105, 50), white), url('../img/acme-banner.png');
   background-blend-mode: multiply;
 }
@@ -67,6 +66,12 @@ nav span {
   padding-left: 0;
   padding-right: 1em;
 }
+
+#hamburger {
+  float: right;
+  display: none;
+}
+
 
 #footer-disclaimer {
   padding: 5px;

@@ -1,52 +1,91 @@
+@font {
+  font-family: 'Kalam';
+  src: url('http://fonts.googleapis.com/css?family=kalam')
+          format('truetype');
+}
+
 body {
-  background-color: darkolivegreen;
+  background-image: linear-gradient(to left, rgb(105,105,50), white);
   margin: 0px 0px 0px 0px;
   padding: 0px 0px 0px 0px;
   border: none;
 }
 
-header, #capsule, footer {
+header, #capsule, nav, footer {
   margin: 0px 0px 0px 0px;
   padding: 0px 0px 0px 0px;
-}
-
-@media screen and (min-width: 800px) {
-
-  header, #capsule, footer  {
-    width: 60%;
-    margin-left: 20%;
-    background-color: white;
-  }
+  width: 100%;
 }
 
 header {
-  background-color: green;
-  background-image: linear-gradient(to bottom, rgb(110,139,61), rgb(202,255,112))
+  background-repeat: no-repeat;
+  background-image: url('../../img/banner-mobile.png')
 }
 
-header.img {
-  left: 10%;
-  right: 10%;
+
+header h1 {
+  font-family: 'Kalam', cursive;
+  text-shadow: 5px 5px 3px #CCCCCC;
+  font-weight: bold;
+  font-size: 15pt;
+  font-style: italic;
+  display: inline-block;
+  padding-top: 200px;
 }
 
-header.h1 {
-  font-family: Comic Sans MS, Comic Sans, cursive;
+nav {
+  margin-top: -1em;
+  font-family: Trebuchet MS, Trebuchet, Verdana MS, Verdana, Luxi Sans, sans serif;
   font-weight: bolder;
   font-size: 16pt;
-  font-style: italic;
+  border-bottom: 2px solid;
 }
 
+
+nav span {
+  text-shadow: 5px 5px 3px #CCCCCC;
+  padding-left: 0;
+  padding-right: 1em;
+}
+
+#hamburger {
+  padding-right: 0;
+  margin-top: -10px;
+  margin-bottom: 10px;
+  margin-right: 5px;
+  color: black;
+  background: white;
+  font-size: 18pt;
+  border: 1px black solid;
+  float: right;
+}
+
+#hamburger:active {
+  background-color: black;
+  color: white;
+}
+
+#capsule {
+  margin-top: -2em;
+}
 
 #footer-disclaimer {
-  width: 75%;
+  padding: 5px;
+  margin-left: 5%;
+  margin-right: 10%;
+  margin-top: 2px;
+  margin-bottom: 1px;;
   font-family: cambria, times new roman, serif;
   font-weight: bolder;
-  font-size: 10pt;
+  font-size: 11pt;
   font-style: italic;
-}
 
-.caution-tape {
-  background-image: url(img/Warning_Stripe.svg) x-repeat;
+  border: 3px yellow dashed;
+  border-image-source: url('../../img/Warning_Stripe.svg');
+  border-image-width: 10px;
+  border-image-slice: 30%;
+  border-image-repeat: repeat;
+  border-image-outset: 5px;
 }
 
 #contact-us {
