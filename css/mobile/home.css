@@ -21,12 +21,11 @@ aside {
 
 #products h3 {
   color: black;
-  font-size: 20pt;
+  font-size: 18pt;
   font-weight: bold;
   font-style: italic;
   padding-top: 0px;
   padding-bottom: 0px;
-  text-decoration: underline;
   display: inline;
 }
 
@@ -52,6 +51,7 @@ aside {
 
 #product-lists h4 {
   font-family: calibri, arial, sans-serif;
+  text-decoration:underline;
   font-size: 16pt;
   font-weight: bold;
   margin-bottom: -15px;
@@ -64,7 +64,7 @@ aside {
 
 #product-lists li {
   font-family: cambria, times new roman, serif;
-  font-size: 14pt;
+  font-size: 16pt;
   list-style-type: none;
   padding-left: 0;
   padding-top: 0;
@@ -73,7 +73,7 @@ aside {
 
 #please-call {
   color: green;
-  font-size: 12pt;
+  font-size: 14pt;
   font-weight: bold;
   font-style: italic;
   display: inline-block;
@@ -88,7 +88,8 @@ aside {
 
 #please-call span {
   display: inline-block;
-  font-weight: bolder;
+  font-size: 14pt;
+  font-weight: bold;
   font-style: normal;
 }
 
@@ -96,14 +97,14 @@ aside {
 #shipping-restrictions {
   font-family: cambria, times new roman, serif;
   font-weight: bolder;
-  font-size: 12pt;
+  font-size: 14pt;
   display: inline-block;
 }
 
 #hand-loading-disclaimer {
   font-family: cambria, times new roman, serif;
   font-weight: bolder;
-  font-size: 12pt;
+  font-size: 14pt;
   top-border: 1px black solid;
   padding: 0px;
   margins: 0px;
@@ -133,81 +134,4 @@ aside {
   display: inline-block;
   margins: 0px;
   padding: 0px;
-}
-
-
-#shows {
-  font-family: calibri, arial, sans-serif;
-  color: gray;
-  font-size: 12pt;
-  margin-top: 10px;
-  margin-right: 5px;
-  margin-bottom: 5px;
-  padding: 1px;
-  display: inline-block;
-}
-
-#shows h4 {
-  font-size: 12pt;
-  font-weight: bold;
-  text-decoration: underline;
-  padding: 0px;
-  margin: 0px;
-}
-
-#shows ul {
-  display: inline-block;
-  margin: 2px;
-  padding: 0px;
-  width:95%;
-  border: 1px gray solid;
-  list-style-type: none;
-}
-
-#shows li {
-  display: inline;
-  text-align: left;
-  margin-left: 0px;
-}
-
-#shows address {
-  text-align: left;
-  margin-top: 0px;
-  margin-bottom: 1em;
-}
-
-#product-logos img {
-  margin: 0px;
-  padding-left: 5px;
-  padding-top: 25px;
-  padding-bottom: 0px;
-  padding-right: 5px;
-  width: 240px;
-  border: none;
-}
-
-#please-call {
-  color: green;
-  font-size: 12pt;
-  font-style: italic;
-  padding-top: 10px;
-  clear: both;
-}
-
-#please-call.h4 {
-  font-weight: bold;
-  font-size: 14pt;
-}
-
-
-#shipping-restrictions {
-  font-family: cambria, times new roman, serif;
-  font-weight: bolder;
-  font-size: 12pt;
-}
-
-#hand-loading-disclaimer {
-  top-border: 1px black solid;
-  padding: 0px;
-  margins: 0px;
 }
