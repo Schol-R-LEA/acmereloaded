@@ -6,7 +6,7 @@
 
 
 body {
-  background-color: rgb(105, 105, 50);
+  background-image: linear-gradient(220deg, rgb(160, 144, 96), white,  rgb(160, 144, 96));
   margin: 0px 0px 0px 0px;
   padding: 0px 0px 0px 0px;
   frameborder: none;
@@ -28,29 +28,19 @@ header, nav, #capsule, footer {
 
 #capsule, nav, footer {
   padding-top: 5px;
-  background: white;
   display: inline-block;
 }
 
 
 header {
   height: 185px;
-  padding-left: 3px;
+  padding-left: 5px;
+  padding-bottom: 10px;
   background-repeat: no-repeat;
-  background-image: linear-gradient(230deg, rgb(105, 105, 50), white), url('../img/acme-banner.png');
+  background-image: url('../img/acme-banner.png');
   background-blend-mode: multiply;
 }
 
-
-header h1 {
-  font-family: 'Kalam', cursive;
-  text-shadow: 5px 5px 3px #CCCCCC;
-  font-weight: bold;
-  font-size: 20pt;
-  font-style: italic;
-  display: inline-block;
-  padding-top: 102px;
-}
 
 
 nav {
