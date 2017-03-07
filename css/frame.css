@@ -27,8 +27,8 @@ header {
   font-weight: bolder;
   line-height: 2.1em;
   margin: 1ex calc((100% - 950px) / 2) 0 calc((100% - 950px) / 2);
+  max-width: 950px;
   position: relative;
-  width: 950px;
 }
 
 header .banner {
