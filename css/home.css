@@ -1,59 +1,65 @@
 .capsule {
   color: black;
   font-family: calibri, arial, sans-serif;
+  line-height: 1em;
+  position: relative;
 }
 
 main {
-  display: inline-block;
+  clear: none;
+  float: left;
   margin-left: 10;
   margin-right: 5px;
-  width: 720;
+  width: 720px;
 }
 
 aside {
-  display: inline-block;
+  clear: none;
+  float: right;
   margin-left: 5px;
   margin-right: 5px;
-  width: 250;
+  width: 250px;
 }
 
 .products {
-  margin-right: 1em;
-  margin-top: 1em;
+  color: black;
+  line-height: 1em;
+  margin: 0;
+  padding: 0;
 }
 
 
-.product-group-header {
-  color: black;
-  display: inline;
+.products-title {
   font-size: 18pt;
   font-style: italic;
   font-weight: bold;
-  padding-bottom: 0;
-  padding-top: 0;
-  text-decoration: underline;
 }
 
 .product-lists {
+  column-gap: 3em;
   column-width: 20em;
-  margin-top: 0;
 }
 
 .product-lists section {
   display: inline-block;
-  margin-top: 0;
-  padding-bottom: 1em;
+  padding-bottom: 2em;
   vertical-align: text-top;
-  white-space: nowrap;
 }
 
-.product-list-title {
-  font-size: 16pt;
+.product-lists .subtitle {
+  display: inline;
+  font-size: 18pt;
   font-weight: bold;
+  text-decoration: underline;
 }
 
 .product-lists ul {
   display: inline;
+}
+
+.product-lists li {
+  font-size: 16pt;
+  list-style-type: none;
 }
 
 
@@ -62,13 +68,13 @@ aside {
   font-size: 12pt;
   font-style: italic;
   font-weight: bold;
+  line-height: 1.5em;
 }
 
-.please-call-title {
+.please-call .title {
+  display: inline;
   font-size: 14pt;
   font-weight: bold;
-  margin-bottom: 0;
-  padding-bottom: 0;
 }
 
 .please-call span {
@@ -79,13 +85,12 @@ aside {
 
 
 .shipping-restrictions {
-  display: inline-block;
   font-size: 12pt;
   font-weight: bolder;
+  line-height: 1.5em;
 }
 
 .hand-loading-disclaimer {
-  border-top: 1px black solid;
   display: inline-block;
   font-size: 12pt;
   font-weight: bolder;
@@ -93,21 +98,17 @@ aside {
   padding: 0;
 }
 
-.hand-loading-disclaimer-text {
-  display: inline;
-}
-
-.hours {
+aside .hours {
   display: inline-block;
 }
 
-.hours-title {
+aside .hours .title {
   display: inline;
   font-size: 13pt;
   font-weight: bold;
 }
 
-.hours-details {
+aside div {
   border-top: 1px black solid;
   display: inline-block;
   font-size: 11pt;
@@ -126,7 +127,7 @@ aside {
   padding: 1px;
 }
 
-.shows-title {
+.shows .title {
   font-size: 12pt;
   font-weight: bold;
   margin: 0;
@@ -156,6 +157,6 @@ aside {
 
 .product-logos img {
   border: none;
-  margin: 0;
-  width: 240;
+  margin: 0 0 1ex 0;
+  width: 240px;
 }
