@@ -1,180 +1,161 @@
-#capsule {
-  font-family: calibri, arial, sans-serif;
+.capsule {
   color: black;
+  font-family: calibri, arial, sans-serif;
 }
 
 main {
-  position: relative;
-  float: left;
-  width: 720px;
-  margin-left: 10px;
-  margin-right: 5px;
   display: inline-block;
+  margin-left: 10;
+  margin-right: 5px;
+  width: 720;
 }
 
 aside {
-  width: 250px;
-  float: right;
+  display: inline-block;
   margin-left: 5px;
   margin-right: 5px;
-  display: inline-block;
+  width: 250;
 }
 
-#products {
-  margin-top: 1em;
+.products {
   margin-right: 1em;
+  margin-top: 1em;
 }
 
 
-#products h3 {
+.product-group-header {
   color: black;
-  font-size: 18pt;
-  font-weight: bold;
-  font-style: italic;
-  padding-top: 0px;
-  padding-bottom: 0px;
-  text-decoration: underline;
   display: inline;
+  font-size: 18pt;
+  font-style: italic;
+  font-weight: bold;
+  padding-bottom: 0;
+  padding-top: 0;
+  text-decoration: underline;
 }
 
-#product-lists {
-  -webkit-column-width: 20em; /* Chrome, Safari, newer Opera */
-  -o-column-width: 20em; /* Firefox */
-  -moz-column-width: 20em; /* Firefox */
+.product-lists {
   column-width: 20em;
-  margin-top: 0px;
-}
-
-#product-lists section {
-  white-space: nowrap;
-  display: inline-block;
-  vertical-align: text-top;
-  padding-bottom: 1em;
   margin-top: 0;
 }
 
-#product-lists h4 {
+.product-lists section {
+  display: inline-block;
+  margin-top: 0;
+  padding-bottom: 1em;
+  vertical-align: text-top;
+  white-space: nowrap;
+}
+
+.product-list-title {
   font-size: 16pt;
   font-weight: bold;
 }
 
-#product-lists ul {
+.product-lists ul {
   display: inline;
 }
 
-#product-lists li {
-  font-size: 14pt;
-  list-style-type: none;
-  padding-left: 0;
-  padding-top: 0;
-  margin-top: 0;
-}
 
-
-#please-call {
+.please-call {
+  display: inline-block;
   font-size: 12pt;
-  font-weight: bold;
   font-style: italic;
-  display: inline-block;
-}
-
-#please-call h4 {
   font-weight: bold;
+}
+
+.please-call-title {
   font-size: 14pt;
-  margin-bottom: 0px;
-  padding-bottom: 0px;
+  font-weight: bold;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
-#please-call span {
+.please-call span {
   display: inline-block;
-  font-weight: bolder;
   font-style: normal;
-}
-
-
-#shipping-restrictions {
   font-weight: bolder;
-  font-size: 12pt;
-  display: inline-block;
 }
 
-#hand-loading-disclaimer {
+
+.shipping-restrictions {
+  display: inline-block;
+  font-size: 12pt;
   font-weight: bolder;
-  font-size: 12pt;
-  top-border: 1px black solid;
-  padding: 0px;
-  margins: 0px;
-  display: inline-block;
 }
 
-#hand-loading-disclaimer h4, p {
+.hand-loading-disclaimer {
+  border-top: 1px black solid;
+  display: inline-block;
+  font-size: 12pt;
+  font-weight: bolder;
+  margin: 0;
+  padding: 0;
+}
+
+.hand-loading-disclaimer-text {
   display: inline;
 }
 
-#hours {
+.hours {
   display: inline-block;
 }
 
-#hours h4 {
+.hours-title {
+  display: inline;
   font-size: 13pt;
   font-weight: bold;
-  display: inline;
 }
 
-#hours div {
+.hours-details {
   border-top: 1px black solid;
+  display: inline-block;
   font-size: 11pt;
-  display: inline-block;
-  margins: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
 }
 
 
-#shows {
+.shows {
   color: black;
-  font-size: 12pt;
-  margin-top: 10px;
-  margin-right: 5px;
-  margin-bottom: 5px;
-  padding: 1px;
   display: inline-block;
+  font-size: 12pt;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  margin-top: 10;
+  padding: 1px;
 }
 
-#shows h4 {
+.shows-title {
   font-size: 12pt;
   font-weight: bold;
+  margin: 0;
+  padding: 0;
   text-decoration: underline;
-  padding: 0px;
-  margin: 0px;
 }
 
-#shows ul {
-  display: inline-block;
-  margin: 2px;
-  padding: 0px;
-  width:95%;
+.shows ul {
   border: 1px gray solid;
+  display: inline-block;
   list-style-type: none;
+  margin: 2px;
+  padding: 0;
 }
 
-#shows li {
+.shows li {
   display: inline;
+  margin-left: 0;
   text-align: left;
-  margin-left: 0px;
 }
 
-#shows address {
-  text-align: left;
-  margin-top: 0px;
+.shows address {
   margin-bottom: 1em;
+  margin-top: 0;
+  text-align: left;
 }
 
-#product-logos img {
-  margin: 0px;
-  padding-left: 5px;
-  padding-top: 25px;
-  padding-bottom: 0px;
-  padding-right: 5px;
-  width: 240px;
+.product-logos img {
   border: none;
+  margin: 0;
+  width: 240;
 }

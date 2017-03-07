@@ -1,54 +1,74 @@
-@font {
-  font-family: 'Kalam';
-  src: url('http://fonts.googleapis.com/css?family=kalam')
-          format('truetype');
-}
-
-
 body {
-  background-image: linear-gradient(220deg, rgb(160, 144, 96), white,  rgb(160, 144, 96));
-  margin: 0px 0px 0px 0px;
-  padding: 0px 0px 0px 0px;
-  frameborder: none;
+  border: none;
+  margin: 0;
 }
 
 h1, h2, h3, h4 {
   display: inline;
 }
 
-header, nav, #capsule, footer {
-  padding: 0;
+header, nav, .capsule, footer {
   border: none;
+  margin: 0 calc((100% - 1000px) / 2) 0 calc((100% - 1000px) / 2);
+  padding: 0;
   width: 1000px;
-  margin-top: 0;
-  margin-left: calc((100% - 1000px) / 2);
-  margin-right: calc((100% - 1000px) / 2);
-  margin-bottom: 0;
 }
 
-#capsule, nav, footer {
-  padding-top: 5px;
+.capsule, footer, nav {
   display: inline-block;
+  padding-top: 5px;
 }
 
 
 header {
-  height: 185px;
+  font-family: Kalam, Comic Sans MS, Comic Sans, cursive;
+  font-weight: bolder;
   padding-left: 5px;
-  padding-bottom: 10px;
-  background-repeat: no-repeat;
-  background-image: url('../img/acme-banner.png');
-  background-blend-mode: multiply;
+  position: relative;
+}
+
+header .header-content {
+  clear: none;
+  float: right;
+}
+
+header img {
+  clear: none;
+  float: left;
+}
+
+.header-content .header-banner {
+  font-size: 150px;
+  font-style: italic;
 }
 
 
+.header-content .header-tagline {
+  font-size: 30pt;
+  font-style: italic;
+}
+
+.header-content .header-firearms {
+  font-size: 25pt;
+  font-style: italic;
+}
+
+.header-content .header-goods, .header-address {
+  font-size: 25pt;
+}
+
+
+header .fb-like {
+  clear: none;
+  float: right;
+}
 
 nav {
-  font-family: Trebuchet MS, Trebuchet, Verdana MS, Verdana, Luxi Sans, sans serif;
-  text-shadow: 5px 5px 3px #CCCCCC;
-  font-weight: bolder;
-  font-size: 16pt;
   border-bottom: 2px solid;
+  font-family: Trebuchet MS, Trebuchet, Verdana MS, Verdana, Luxi Sans, sans serif;
+  font-size: 16pt;
+  font-weight: bolder;
+  text-shadow: 5px 5px 3px #CCCCCC;
 }
 
 
@@ -57,31 +77,20 @@ nav span {
   padding-right: 1em;
 }
 
-#hamburger {
-  float: right;
+.hamburger {
   display: none;
+  float: right;
 }
 
-
-#footer-disclaimer {
-  padding: 5px;
-  margin-left: 5%;
-  margin-right: 10%;
-  margin-top: 2em;
-  margin-bottom: 1em;
+.disclaimer {
   font-family: cambria, times new roman, serif;
-  font-weight: bolder;
   font-size: 11pt;
   font-style: italic;
-
-  border: 10px yellow dashed;
-  border-image-source: url('../img/Warning_Stripe.svg');
-  border-image-width: 10px;
-  border-image-slice: 30%;
-  border-image-repeat: repeat;
-  border-image-outset: 5px;
+  font-weight: bolder;
+  margin: 2em 5% 10% 1em;
+  padding: 5px;
  }
 
-#contact-us {
+.contact-us {
   text-align: center;
 }
