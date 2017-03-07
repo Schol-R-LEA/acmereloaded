@@ -22,11 +22,13 @@ nav, .capsule, footer {
 }
 
 header {
+  clear: none;
   font-family: Kalam, Comic Sans MS, Comic Sans, cursive;
   font-weight: bolder;
   line-height: 2.1em;
-  width: 950px;
   margin: 1ex calc((100% - 950px) / 2) 0 calc((100% - 950px) / 2);
+  position: relative;
+  width: 950px;
 }
 
 header .banner {
@@ -55,9 +57,10 @@ header .goods, .location {
 }
 
 
-header .fb-like {
+.fb-like {
   clear: none;
   float: right;
+  margin-top: -100px;
 }
 
 nav {
