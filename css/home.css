@@ -31,19 +31,21 @@ aside {
 
 
 .products-title {
-  font-size: 18pt;
+  font-size: 22pt;
   font-style: italic;
   font-weight: bold;
+  line-height: 0.5ex;
+  padding-bottom: 0;
 }
 
 .product-lists {
-  column-gap: 3em;
-  column-width: 20em;
+  column-gap: 5em;
 }
 
 .product-lists section {
   display: inline-block;
   padding-bottom: 2em;
+  padding-right: 1em;
   vertical-align: text-top;
 }
 
@@ -66,17 +68,11 @@ aside {
 
 .please-call {
   display: inline-block;
-  font-size: 12pt;
+  font-size: 14pt;
   font-style: italic;
-  font-weight: bold;
   line-height: 1.5em;
 }
 
-.please-call .title {
-  display: inline;
-  font-size: 14pt;
-  font-weight: bold;
-}
 
 .please-call span {
   display: inline-block;
@@ -160,4 +156,8 @@ aside div {
   border: none;
   margin: 0 0 1ex 0;
   width: 240px;
+}
+
+.fb-like {
+  display: inline-block;
 }
