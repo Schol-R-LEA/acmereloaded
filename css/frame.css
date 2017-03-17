@@ -11,7 +11,7 @@ header, nav, .capsule, footer {
   border: none;
   clear: none;
   float: left;
-  margin: 0 calc((100% - 990px) / 2) 0 calc(((100% - 1000px) / 2) + 2em);
+  margin: 0 calc((100% - 1000px) / 2) 0 calc(((100% - (1000px + 2em)) / 2) + 2em);
   width: 1000px;
 }
 
