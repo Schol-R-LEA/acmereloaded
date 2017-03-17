@@ -2,14 +2,12 @@
   color: black;
   font-family: calibri, arial, sans-serif;
   line-height: 1em;
-  padding-left: 1em;
   position: relative;
 }
 
 main {
   clear: none;
   float: left;
-  margin-left: 10;
   margin-right: 5px;
   width: 720px;
 }
@@ -40,12 +38,14 @@ aside {
 
 .product-lists {
   column-gap: 5em;
+  font-size: 16pt;
 }
 
 .product-lists section {
   display: inline-block;
+  font-size: 16pt;
   padding-bottom: 2em;
-  padding-right: 1em;
+  padding-right: 3ex;
   vertical-align: text-top;
 }
 
@@ -53,11 +53,13 @@ aside {
   display: inline;
   font-size: 18pt;
   font-weight: bold;
+  line-height: 1ex;
   text-decoration: underline;
 }
 
 .product-lists ul {
   display: inline;
+  font-size: 16pt;
 }
 
 .product-lists li {
@@ -75,7 +77,7 @@ aside {
 
 
 .please-call span {
-  display: inline-block;
+  font-size: 14pt;
   font-style: normal;
   font-weight: bolder;
 }
@@ -95,20 +97,24 @@ aside {
   padding: 0;
 }
 
+aside {
+  margin-right: 1em;
+}
+
 aside .hours {
   display: inline-block;
 }
 
 aside .hours .title {
   display: inline;
-  font-size: 13pt;
+  font-size: 14pt;
   font-weight: bold;
 }
 
 aside div {
   border-top: 1px black solid;
   display: inline-block;
-  font-size: 11pt;
+  font-size: 12pt;
   margin: 0;
   padding: 0;
 }
@@ -125,7 +131,7 @@ aside div {
 }
 
 .shows .title {
-  font-size: 12pt;
+  font-size: 14pt;
   font-weight: bold;
   margin: 0;
   padding: 0;
