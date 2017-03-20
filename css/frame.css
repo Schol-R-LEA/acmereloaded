@@ -19,7 +19,7 @@ header, nav, .capsule, footer {
 header {
   font-family: Kalam, Comic Sans MS, Comic Sans, cursive;
   font-weight: bolder;
-  line-height: 2.1em;
+  line-height: 2.25em;
 }
 
 header .logo {
@@ -28,10 +28,16 @@ header .logo {
   width: 250px;
 }
 
+header .content {
+  display: inline-block;
+  font-size: 25pt;
+  line-height: 1.25em;
+}
+
 header .banner {
   font-size: 50pt;
   font-style: italic;
-  line-height: 1.25em;
+  line-height: 1em;
   margin: 0;
 }
 

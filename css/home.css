@@ -9,7 +9,7 @@ main {
   clear: none;
   float: left;
   margin-right: 5px;
-  width: 720px;
+  width: 710px;
 }
 
 aside {
@@ -28,43 +28,43 @@ aside {
 }
 
 
-.products-title {
+.products .title {
   font-size: 22pt;
   font-style: italic;
   font-weight: bold;
-  line-height: 0.5ex;
+  line-height: 1ex;
   padding-bottom: 0;
 }
 
-.product-lists {
-  column-gap: 5em;
+.products .lists {
+  column-gap: 4em;
   font-size: 16pt;
 }
 
-.product-lists section {
+.products .lists section {
   display: inline-block;
-  font-size: 16pt;
-  padding-bottom: 2em;
-  padding-right: 3ex;
+  padding: 0 3ex 3ex 0;
   vertical-align: text-top;
 }
 
-.product-lists .subtitle {
+.products .lists .subtitle {
   display: inline;
   font-size: 18pt;
   font-weight: bold;
-  line-height: 1ex;
+  line-height: 3ex;
   text-decoration: underline;
 }
 
-.product-lists ul {
+.products .lists ul {
   display: inline;
   font-size: 16pt;
+  vertical-align: text-top;
 }
 
-.product-lists li {
+.products .lists li {
   font-size: 16pt;
   list-style-type: none;
+  vertical-align: text-top;
 }
 
 
